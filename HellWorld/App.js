@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import logoIcon from "./assets/adaptive-icon.png";
 import splashIcon from "./assets/adaptive-icon.png";
+import { ModalComponent } from "./src/ModalComponent";
 
 export default function App() {
   return (
@@ -16,7 +17,6 @@ export default function App() {
       style={{
         flex: 1,
         padding: 60,
-        color: "white",
       }}
     >
       {/* The below code is upto the topics of pressable  */}
@@ -79,6 +79,7 @@ export default function App() {
       {/*    a fermentum mauris ultricies. Morbi vitae fauc*/}
       {/*  </Text>*/}
       {/*</ScrollView>*/}
+      <ModalComponent />
     </View>
   );
 }
