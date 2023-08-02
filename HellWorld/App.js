@@ -10,13 +10,14 @@ import {
 import logoIcon from "./assets/adaptive-icon.png";
 import splashIcon from "./assets/adaptive-icon.png";
 import { ModalComponent } from "./src/ModalComponent";
+import { StatusBarComponent } from "./src/StatusBarComponent";
 
 export default function App() {
   return (
     <View
       style={{
         flex: 1,
-        padding: 60,
+        //   padding: 60,
       }}
     >
       {/* The below code is upto the topics of pressable  */}
@@ -79,7 +80,8 @@ export default function App() {
       {/*    a fermentum mauris ultricies. Morbi vitae fauc*/}
       {/*  </Text>*/}
       {/*</ScrollView>*/}
-      <ModalComponent />
+      {/*<ModalComponent />*/}
+      <StatusBarComponent />
     </View>
   );
 }
