@@ -7,10 +7,10 @@ import {
   Text,
   View,
 } from "react-native";
-import logoIcon from "./assets/adaptive-icon.png";
-import splashIcon from "./assets/adaptive-icon.png";
-import { ModalComponent } from "./src/ModalComponent";
-import { StatusBarComponent } from "./src/StatusBarComponent";
+// import logoIcon from "./assets/adaptive-icon.png";
+// import splashIcon from "./assets/adaptive-icon.png";
+// import { ModalComponent } from "./src/ModalComponent";
+// import { StatusBarComponent } from "./src/StatusBarComponent";
 import { AlertComponent } from "./src/AlertComponent";
 
 export default function App() {
